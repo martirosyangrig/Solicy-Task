@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table, th, td {
+    width: 500px;
+    height: 31px;
+    border:1px solid black;
+}
+.views{
+    color: blue;
+    cursor: pointer;
+}
