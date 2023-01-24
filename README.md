@@ -7,7 +7,7 @@ Then type npm install
 
 then npm run dev 
 
-and go tou your browser to http://localhost:3001/accounts
+And go to your browser to http://localhost:3001/accounts
 
 
 Thank you!

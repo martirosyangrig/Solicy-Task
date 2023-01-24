@@ -1,9 +1,9 @@
-const express = require("express")
-const router = express.Router()
-const UsersController = require("../controlers/UsersController")
+const express = require("express");
+const router = express.Router();
+const UsersController = require("../controlers/UsersController");
 
 router.get("/", (req, res) => {
-    res.redirect("/accounts")
+    res.redirect("/accounts");
 });
 
 

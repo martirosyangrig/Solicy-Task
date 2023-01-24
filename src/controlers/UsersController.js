@@ -1,5 +1,6 @@
 const path = require("path");
 const users = require("../models/getUsers")
+
 class UserController {
 
     static getAccountPage(req, res) {
@@ -11,7 +12,7 @@ class UserController {
     }
 
     static getUsersData(req, res) {
-        res.send(users)
+        res.send(users);
     }
 
     static getOneUserData (req, res) {
@@ -20,4 +21,4 @@ class UserController {
     }
 }
 
-module.exports = UserController
+module.exports = UserController;
